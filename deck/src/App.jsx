@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./index.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDotCircle } from "@fortawesome/free-regular-svg-icons";
 
 function App() {
   const [minVal, setMinVal] = useState(0);
