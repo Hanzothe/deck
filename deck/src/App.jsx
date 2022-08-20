@@ -16,9 +16,9 @@ function App() {
     <div className="App">
       <div id="container">
         <button id="gera" onClick={handleRandomNum}>
-          Gerar
+          <FontAwesomeIcon icon={faDotCircle} size="xs"></FontAwesomeIcon>
         </button>
-        <p>Numero Aleatório {randomNum}</p>
+        <p id="number">Numero Aleatório {randomNum}</p>
       </div>
     </div>
   );
