@@ -1,22 +1,60 @@
-.App{
-  
+.App {
   height: 100vh;
   width: 100%;
-  display:grid;
-  place-items:center;
-  background-color: black;
+  display: grid;
+  place-items: center;
+  padding: 0px;
+  background-color: #fff;
 }
 
 #container {
   height: 35rem;
   width: 35rem;
-  color:white;
-  display:grid;
-  place-items:center;
-  gap:1rem;
+  color: black;
+  display: grid;
+  border-radius: 5px;
+
+  place-items: center;
+  background-image: linear-gradient(to right, #f54768, #ff9678);
 }
 
-#gera{
-  width: 100px;
-  height: 100px;
+.dices {
+  width: 85px;
+  height: 85px;
+  background-color: #41436a;
+  border: solid 3px #646691;
+  border-radius: 10px;
+  color: white;
+  font-size: 35px;
+  -webkit-box-shadow: 16px 18px 38px 1px rgba(0, 0, 0, 0.52);
+  box-shadow: 16px 18px 38px 1px rgba(0, 0, 0, 0.52);
+}
+
+.dices:hover {
+  background-color: #2a3950;
+  border: solid 3px #baa7a7;
+  transition-timing-function: ease-in;
+  transition-timing-function: ease-out;
+  transition: 0.9s;
+  transform: scale(1.1);
+}
+
+#buttons {
+  display: flex;
+  gap: 6px;
+  position: relative;
+  top: 50px;
+}
+
+#number {
+  display: grid;
+  width: 220px;
+  height: 110px;
+  place-items: center;
+  font-weight: bold;
+  font-size: 120px;
+  color: #974063;
+  position: relative;
+  top: -76px;
+  text-shadow: 8px 6px 5px rgb(0 0 0 / 43%);
 }
