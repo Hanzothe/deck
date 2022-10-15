@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./index.css";
+import Deck from "./Deck";
 
 function App() {
   const [minVal, setMinVal] = useState(1);
@@ -12,10 +13,11 @@ function App() {
 
   return (
     <div className="App">
-      <div id="container">
+      <Deck />
+      <div id="btndices">
         <div id="buttons">
           <button
-            class="dices"
+            className="dices"
             onMouseEnter={() => {
               setMaxVal(4);
             }}
@@ -26,7 +28,7 @@ function App() {
             D4
           </button>
           <button
-            class="dices"
+            className="dices"
             onMouseEnter={() => {
               setMaxVal(6);
             }}
@@ -37,7 +39,7 @@ function App() {
             D6
           </button>
           <button
-            class="dices"
+            className="dices"
             onMouseEnter={() => {
               setMaxVal(8);
             }}
@@ -48,7 +50,7 @@ function App() {
             D8
           </button>
           <button
-            class="dices"
+            className="dices"
             onMouseEnter={() => {
               setMaxVal(12);
             }}
@@ -59,7 +61,7 @@ function App() {
             D12
           </button>
           <button
-            class="dices"
+            className="dices"
             onMouseEnter={() => {
               setMaxVal(20);
             }}
