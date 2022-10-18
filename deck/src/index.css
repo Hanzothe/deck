@@ -1,7 +1,12 @@
+/* :root{
+  --height:440px
+  --width:640px
+} */
+
 html {
   min-height: 100%;
   margin: 0;
-  background-image: linear-gradient(to right, #f54768, #ff9678);
+  background-image: linear-gradient(to right, #131010, #2c2a2a);
 }
 
 .App {
@@ -11,8 +16,8 @@ html {
   display: grid;
   border-radius: 5px;
   place-items: center;
-  grid-template-rows: auto 150px;
-  grid-template-areas: "Animated" "Footer";
+  grid-template-rows: 500px 500px;
+  grid-template-columns: 320px 320px 320px 320px 320px 320px;
 }
 
 .dices {
@@ -56,12 +61,29 @@ html {
   display: grid;
   place-items: center;
   grid-template-columns: 1fr;
+  grid-row-start: 2;
+  grid-column-start: 5;
 }
 
 .Deck {
-  display: grid;
   color: red;
-  background-color: aliceblue;
-  height: 100px;
-  width: 100px;
+  height: 309px;
+  width: 222px;
+  display: grid;
+  grid-row-start: 2;
+  grid-column-start: 6;
+}
+
+.cube {
+  height: 320px;
+  width: 220px;
+}
+
+.face {
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1);
+  height: 223px;
+  width: 159px;
+  background-image: url("images/med.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
