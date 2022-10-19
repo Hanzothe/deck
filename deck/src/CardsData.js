@@ -1,231 +1,255 @@
 export const RegularDeck = [
   {
-    Name: "1 DE GLÁDIOS — VINGADOR",
+    Name: "1 de Gládios — VINGADOR",
     Quote:
       "O tesouro está na casa de um dragão, em mãos uma vez limpas e agora corrompidas.",
-    Descriptin:
+    Description:
       "O tesouro está em posse de Vladimir Horngaard em Argynvostholt (capitulo 7, área Q36).",
   },
   {
-    Name: "2 DE GLÁDIOS— PALADINO",
+    Name: "2 de Gládios— PALADINO",
     Quote:
       "Eu vejo um príncipe dormindo, um servo de luz e o irmão das trevas. O tesouro está com ele.",
-    Descriptin: "O tesouro está no túmulo de Sergei (capítulo 4, área K85).",
+    Description: "O tesouro está no túmulo de Sergei (capítulo 4, área K85).",
   },
   {
-    Name: "3 DE GLÁDIOS — SOLDADO",
+    Name: "3 de Gládios — SOLDADO",
     Quote:
       "Vá para as montanhas. Suba a torre branca guardada por cavaleiros dourados.",
-    Descriptin:
+    Description:
       "O tesouro está no último andar da torre de guarda da Passagem de Tsolenka (capitulo 9, área T6).",
   },
   {
-    Name: "4 DE GLÁDIOS — MERCENÁRIO",
+    Name: "4 de Gládios — MERCENÁRIO",
     Quote:
       "A coisa que você procura está com os mortos, sob as montanhas de moedas de ouro.",
-    Descriptin:
+    Description:
       "O tesouro está em uma cripta no Castelo Ravenloft (capítulo 4, K84 área, cripta 3Quote:).",
   },
   {
-    Name: "5 DE GLÁDIOS — MIRMIDÃO",
+    Name: "5 de Gládios — MIRMIDÃO",
     Quote:
       "Procure um covil de lobos nas colinas com vista para um lago de montanha. O tesouro pertence à Mãe da Noite.",
-    Descriptin:
+    Description:
       "O tesouro está no santuário da Mãe da Noite no covil do lobisomem (capítulo Quote:5, área Z7).",
   },
   {
-    Name: "6 DE GLÁDIOS — Furioso",
+    Name: "6 de Gládios — Furioso",
     Quote:
       "Encontre a cripta do Cachorro Louco. O tesouro está dentro, embaixo de ossos enegrecidos.",
-    Descriptin:
+    Description:
       "O tesouro está na cripta do general Kroval “Cachorro Louco” Grislek (capítulo 4, área K84, cripta 38).",
   },
   {
-    Name: "7 DE GLÁDIOS — ENCAPUZADO",
+    Name: "7 de Gládios — ENCAPUZADO",
     Quote:
       "Vejo um deus sem rosto. Ele espera por você no final de uma longa e sinuosa estrada entre as montanhas.",
-    Descriptin:
+    Description:
       "O tesouro está dentro da cabeça da estátua gigante no Templo Âmbar (capítulo Quote:3, área X5a)",
   },
   {
-    Name: "8 DE GLÁDIOS — DITADOR",
+    Name: "8 de Gládios — DITADOR",
     Quote: "Eu vejo um trono apropriado para um rei.",
-    Descriptin:
+    Description:
       "O tesouro está no salão de audiências do Castelo Ravenloft (capitulo 4, área K25).",
   },
   {
-    Name: "9 DE GLÁDIOS — TORTURADOR",
+    Name: "9 de Gládios — TORTURADOR",
     Quote:
       "Há uma cidade onde nem tudo está bem. Lá você encontrará uma casa de corrupção, e nela, um quarto escuro cheio de fantasmas silenciosos.",
-    Descriptin:
+    Description:
       "O tesouro está escondido no sótão da mansão do burgomestre em Vallaki (capítulo 5, área N3s)",
   },
   {
-    Name: "MESTRE DE GLÁDIOS — GUERREIRO",
+    Name: "MESTRE de Gládios — GUERREIRO",
     Quote:
       "O que você procura situa-se no ventre da escuridão,a cripta do diabo: o único lugar para o qual ele deve retornar.",
-    Descriptin: "O tesouro está no túmulo de Strahd (capítulo 4, área K86).",
+    Description: "O tesouro está no túmulo de Strahd (capítulo 4, área K86).",
+  },
+  {
+    Name: "Mestre de Estrelas - Mago",
+    Quote:
+      "Procure por uma torre de mago em um lago. Deixe o nome do mago e o servo guiar você naquilo que procura...",
+    Description:
+      "O tesouro está no último andar da Torre de Van Richten(capítulo 11, área V7).",
+  },
+  {
+    Name: "1 de Estrelas - Transmutador",
+    Quote:
+      "Vá para um lugar de alturas vertiginosas, onde a pedra em si é viva!",
+    Description:
+      "O tesouro está no pico da torre norte do Castelo Ravenloft (capítulo 4, área K60).",
+  },
+  {
+    Name: "2 de Estrelas — ÁDIVINHO",
+    Quote:
+      "Olhe para aquela que tudo vê. O tesouro está escondido em seu acampamento.",
+    Description:
+      "O tesouro está no acampamento de Madame Eva (capítulo 2, área G). Se ela é a única realizando a leitura de cartas, ela diz: “Eu acho que o tesouro estã debaixo do meu próprio nariz!”",
+  },
+  {
+    Name: "3 de Estrelas — ENCANTADOR",
+    Quote:
+      "Eu vejo uma mulher ajoelhada — uma rosa de grande beleza arrancada muito cedo. O mestre do pântano sabe de quem falo.",
+    Description:
+      "O tesouro está sob o monumento de Marina em Berez (capítulo 10, área US). “O mestre do pântano” refere-se ao Burgomestre Lazio Ulrich (área U2), cujo fantasma pode apontar aos personagens a direção ao monumento.",
+  },
+  {
+    Name: "4 de Estrelas — ÁBJURADOR",
+    Quote:
+      "Eu vejo uma casa caída guardada por um grande dragão de pedra. Olhe para o pico mais alto.",
+    Description:
+      "O tesouro está no farol de Argynvostholt (capítulo 7, área Q53). “Grande dragão de pedra” refere-se à estátua na área Ql.",
+  },
+  {
+    Name: "5 de Estrelas — ELEMENTARISTA",
+    Quote:
+      "O tesouro está escondido em um pequeno castelo debaixo de uma montanha, guardada por gigantes de âmbar.",
+    Description:
+      "O tesouro está dentro de uma maquete do Castelo Ravenloft no Templo Âmbar (capítulo 13, área X20).",
+  },
+  {
+    Name: "6 de Estrelas — EVOCADOR",
+    Quote: "Procure a cripta de um mago ordinário. Seu cajado é a chave.",
+    Description:
+      "O tesouro está escondido na cripta da Gralmore Nimblenobs (capítulo 4, K84 área, cripta 37). ",
+  },
+  {
+    Name: "7 de Estrelas — ILUSIONISTA",
+    Quote:
+      "Um homem não é o que parece. Ele vem aqui em seu vagão. É aí que reside o que você procura.",
+    Description: "O tesouro estã no vagão de Rictavio (Capítulo 5, área N5).",
+  },
+  {
+    Name: " 8 de Estrelas — NECROMANTE",
+    Quote:
+      "Uma mulher paira acima de uma lareira. Encontre-a e você encontrará o tesouro.",
+    Description:
+      "O tesouro está no escritório do Castelo Ravenloft (capítulo 4, área de K37).",
+  },
+  {
+    Name: "9 de Estrelas — CONJURADOR",
+    Quote:
+      "Vejo uma aldeia morta, afogada por um rio, governada por alguém que trouxe grande mal ao mundo.",
+    Description:
+      "O tesouro está na cabana de Baba Lysaga (capítulo 10, área U3).",
+  },
+  {
+    Name: " 1 de Moedas — ESPADACHIM",
+    Quote:
+      "Eu vejo o esqueleto de um guerreiro morto, deitado sobre um leito de pedra cercado por gárgulas.",
+    Description:
+      "O tesouro está na cripta da Endorovich (capítulo 4, área K84, cripta 7).",
+  },
+  {
+    Name: " 2 de Moedas — FILANTROPO",
+    Quote:
+      "Procure por um lugar onde a doença e loucuras são criadas. Onde as crianças uma vez choraram o tesourolá está.",
+    Description:
+      "O tesouro está no berçário da Abadia de Santa Markóvia (Capítulo 8, área 523).",
+  },
+  {
+    Name: " 3 de Moedas — NEGOCIANTE",
+    Quote:
+      "Procure pelo mago dos vinhos! Em madeira e areia o tesouro se esconde.",
+    Description:
+      "O tesouro está na oficina do soprador de vidro na adega do Mago dos Vinhos (capitulo 12, área W10).",
+  },
+  {
+    Name: " 4 de Moedas — MERCADOR",
+    Quote:
+      "Procure um barril que antes continha vinho fino, do qual não resta uma gota.",
+    Description:
+      "O tesouro está na adega do castelo Ravenloft (capítulo 4, área K63).",
+  },
+  {
+    Name: " 5 de Moedas — MEMBRO DA GUILDA",
+    Quote:
+      "Eu vejo um quarto escuro cheio de garrafas. É o túmulo de um membro de um membro da guilda.",
+    Description:
+      "O tesouro está na cripta da Artank Swilovich (capítulo 4, área K84, cripta 5).",
+  },
+  {
+    Name: " 6 de Moedas — PEDINTE",
+    Quote:
+      "Um elfo ferido tem o que você procura. Ele vai partir com o tesouro para ver seus sonhos sombrios cumpridos.",
+    Description:
+      "O tesouro está escondido na cabana de Kasimir (capítulo 5, área N9A).",
+  },
+  {
+    Name: "  7 de Moedas — BANDIDO",
+    Quote:
+      "O que você procura está no cruzamento da vida e da morte, entre os mortos enterrados.",
+    Description:
+      "O tesouro está enterrado no cemitério, no cruzamento do Rio Ivlis (capitulo 2, área F).",
+  },
+  {
+    Name: " 8 de Moedas — COLETOR DE IMPOSTOS",
+    Quote:
+      "Os Vistanis têm o que você procura. Uma criança desaparecida guarda a chave para o acesso ao tesouro.",
+    Description:
+      "O tesouro está escondido em uma carroça de tesouro Vistanis (capítulo 5, a área N9i). “Uma criança desaparecida” refere-se a Arabelle (veja capítulo 2, área LJ).",
+  },
+  {
+    Name: " 9 de Moedas — ÁVARENTO",
+    Quote:
+      "Procure por uma fortaleza dentro de uma fortaleza, em um lugar escondido atrás de fogo.",
+    Description:
+      "O tesouro está no cofre do Castelo Ravenloft (capítulo 4, área K41).",
+  },
+  {
+    Name: " Mestre de Moedas — LADINO",
+    Quote: "Eu vejo um ninho de corvos. Lá você encontrará a recompensa.",
+    Description:
+      "O tesouro está escondido no sótão da Estalagem Água Azul (capítulo 5, área N29).",
   },
 ];
 
 
 
-
-GLÁDIOS
-{
-    Name:"1 DE GLÁDIOS — VINGADOR";
-Quote:"O tesouro está na casa de um dragão, em mãos uma vez limpas e agora corrompidas.";
-Descriptin:"O tesouro está em posse de Vladimir Horngaard em Argynvostholt (capitulo 7, área Q36).";},
-
-{
-Name:"2 DE GLÁDIOS— PALADINO";
-Quote:"Eu vejo um príncipe dormindo, um servo de luz e o irmão das trevas. O tesouro está com ele.";
-Descriptin:"O tesouro está no túmulo de Sergei (capítulo 4, área K85).";
-},{
-Name:"3 DE GLÁDIOS — SOLDADO";
-Quote:"Vá para as montanhas. Suba a torre branca guardada por cavaleiros dourados.";
-Descriptin:"O tesouro está no último andar da torre de guarda da Passagem de Tsolenka (capitulo 9, área T6).";
-},
-{Name:"4 DE GLÁDIOS — MERCENÁRIO";
-Quote:"A coisa que você procura está com os mortos, sob as montanhas de moedas de ouro.";
-Descriptin:"O tesouro está em uma cripta no Castelo Ravenloft (capítulo 4, K84 área, cripta 3Quote:).";;
-},
-{Name:"5 DE GLÁDIOS — MIRMIDÃO";
-Quote:"Procure um covil de lobos nas colinas com vista para um lago de montanha. O tesouro pertence à Mãe da Noite.";
-Descriptin:"O tesouro está no santuário da Mãe da Noite no covil do lobisomem (capítulo Quote:5, área Z7).";;
-},
-{Name:"6 DE GLÁDIOS — Furioso";
-Quote:"Encontre a cripta do Cachorro Louco. O tesouro está dentro, embaixo de ossos enegrecidos.";
-Descriptin:"O tesouro está na cripta do general Kroval “Cachorro Louco” Grislek (capítulo 4, área K84, cripta 38).";
-},
-{Name:"7 DE GLÁDIOS — ENCAPUZADO";
-Quote:"Vejo um deus sem rosto. Ele espera por você no final de uma longa e sinuosa estrada entre as montanhas.";
-Descriptin:"O tesouro está dentro da cabeça da estátua gigante no Templo Âmbar (capítulo Quote:3, área X5a)";;
-},
-{Name:"8 DE GLÁDIOS — DITADOR";
-Quote:"Eu vejo um trono apropriado para um rei.";
-Descriptin:"O tesouro está no salão de audiências do Castelo Ravenloft (capitulo 4, área K25).";
-},
-{Name:"9 DE GLÁDIOS — TORTURADOR";
-Quote:"Há uma cidade onde nem tudo está bem. Lá você encontrará uma casa de corrupção, e nela, um quarto escuro cheio de fantasmas silenciosos.";
-Descriptin:"O tesouro está escondido no sótão da mansão do burgomestre em Vallaki (capítulo 5, área N3s)";
-},
-{
-Name:"MESTRE DE GLÁDIOS — GUERREIRO";
-Quote:"O que você procura situa-se no ventre da escuridão,a cripta do diabo: o único lugar para o qual ele deve retornar.";
-Descriptin:"O tesouro está no túmulo de Strahd (capítulo 4, área K86).";
-},
-ESTRELAS
-
-// Mestre de Estrelas - Mago
-1"Procure por uma torre de mago em um lago. Deixe o nome do mago e o servo guiar você naquilo que procura...";
-2"O tesouro está no último andar da Torre de Van Richten(capítulo 11, área V7).";
-// 1 de Estrelas - Transmutador
-1"Vá para um lugar de alturas vertiginosas, onde a pedra em si é viva!";
-2"O tesouro está no pico da torre norte do Castelo Ravenloft (capítulo 4, área K60).";
-// 2 DE ESTRELAS — ÁDIVINHO
-1"Olhe para aquela que tudo vê. O tesouro está escondido em seu acampamento.";
-2"O tesouro está no acampamento de Madame Eva (capítulo 2, área G). Se ela é a única realizando a leitura de cartas, ela diz: “Eu acho que o tesouro estã debaixo do meu próprio nariz!”";
-// 3 DE EsTRELAS — ENCANTADOR
-1"Eu vejo uma mulher ajoelhada — uma rosa de grande beleza arrancada muito cedo. O mestre do pântano sabe de quem falo.";
-2"O tesouro está sob o monumento de Marina em Berez (capítulo 10, área US). “O mestre do pântano” refere-se ao Burgomestre Lazio Ulrich (área U2), cujo fantasma pode apontar aos personagens a direção ao monumento.";
-// 4 DE EsTRELAS — ÁBJURADOR
-1"Eu vejo uma casa caída guardada por um grande dragão de pedra. Olhe para o pico mais alto.";
-2"O tesouro está no farol de Argynvostholt (capítulo 7, área Q53). “Grande dragão de pedra” refere-se à estátua na área Ql.";
-// 5 DE EstRELAS — ELEMENTARISTA
-1"O tesouro está escondido em um pequeno castelo debaixo de uma montanha, guardada por gigantes de âmbar.";
-2"O tesouro está dentro de uma maquete do Castelo Ravenloft no Templo Âmbar (capítulo 13, área X20).";
-// 6 DE EsTRELAS — EVOCADOR
-1"Procure a cripta de um mago ordinário. Seu cajado é a chave.";
-2"O tesouro está escondido na cripta da Gralmore Nimblenobs (capítulo 4, K84 área, cripta 37). ";
-// 7 DE EsTRELAS — ILUSIONISTA
-1"Um homem não é o que parece. Ele vem aqui em seu vagão. É aí que reside o que você procura."
-2"O tesouro estã no vagão de Rictavio (Capítulo 5, área N5)."
-//  8 DE EsTRELAS — NECROMANTE
-1"Uma mulher paira acima de uma lareira. Encontre-a e você encontrará o tesouro."
-2"O tesouro está no escritório do Castelo Ravenloft (capítulo 4, área de K37)."
-// 9 DE EsTRELAS — CONJURADOR
-1"Vejo uma aldeia morta, afogada por um rio, governada por alguém que trouxe grande mal ao mundo."
-2"O tesouro está na cabana de Baba Lysaga (capítulo 10, área U3)."
-
-MOEDAS
-
-// 1 DE MOEDAS — ESPADACHIM
-1"Eu vejo o esqueleto de um guerreiro morto, deitado sobre um leito de pedra cercado por gárgulas."
-2"O tesouro está na cripta da Endorovich (capítulo 4, área K84, cripta 7)."
-// 2 DE MOEDAS — FILANTROPO
-1"Procure por um lugar onde a doença e loucuras são criadas. Onde as crianças uma vez choraram o tesourolá está."
-2"O tesouro está no berçário da Abadia de Santa Markóvia (Capítulo 8, área 523)."
-// 3 DE MOEDAS — NEGOCIANTE
-1"Procure pelo mago dos vinhos! Em madeira e areia o tesouro se esconde."
-2"O tesouro está na oficina do soprador de vidro na adega do Mago dos Vinhos (capitulo 12, área W10)."
-// 4 DE MOEDAS — MERCADOR
-1"Procure um barril que antes continha vinho fino, do qual não resta uma gota."
-2"O tesouro está na adega do castelo Ravenloft (capítulo 4, área K63)."
-// 5 DE MOEDAS — MEMBRO DA GUILDA
-1"Eu vejo um quarto escuro cheio de garrafas. É o túmulo de um membro de um membro da guilda."
-2"O tesouro está na cripta da Artank Swilovich (capítulo 4, área K84, cripta 5)."
-// 6 DE MOEDAS — PEDINTE
-1"Um elfo ferido tem o que você procura. Ele vai partir com o tesouro para ver seus sonhos sombrios cumpridos."
-2"O tesouro está escondido na cabana de Kasimir (capítulo 5, área N9A)."
-//  7 DE MOEDAS — BANDIDO
-1"O que você procura está no cruzamento da vida e da morte, entre os mortos enterrados."
-2"O tesouro está enterrado no cemitério, no cruzamento do Rio Ivlis (capitulo 2, área F)."
-// 8 DE MOEDAS — COLETOR DE IMPOSTOS
-1"Os Vistanis têm o que você procura. Uma criança desaparecida guarda a chave para o acesso ao tesouro."
-2"O tesouro está escondido em uma carroça de tesouro Vistanis (capítulo 5, a área N9i). “Uma criança desaparecida” refere-se a Arabelle (veja capítulo 2, área LJ)."
-// 9 DE MOEDAS — ÁVARENTO
-1"Procure por uma fortaleza dentro de uma fortaleza, em um lugar escondido atrás de fogo."
-2"O tesouro está no cofre do Castelo Ravenloft (capítulo 4, área K41)."
-// MESTRE DE MOEDAS — LADINO
-1"Eu vejo um ninho de corvos. Lá você encontrará a recompensa."
-2"O tesouro está escondido no sótão da Estalagem Água Azul (capítulo 5, área N29)."
-
 GLIFOS
 
-//  1 DE GLiros— MONGE
-1"O tesouro que você procura está escondido atrás do sol, na casa de um santo."
-2"O tesouro está no salão principal da Abadia de Santa Markóvia (capítulo 8, área 813)."
-// 2 DE GLiros— MIssIONÁRIO
-1"Eu vejo um jardim debruçado sob a neve, vigiado por um espantalho em pano de saco com um sorriso largo. Não olhe para o jardim, mas sim para o guardião."
-2"O tesouro está escondido dentro de um dos espantalhos no jardim da Abadia de Santa Markóvia (capitulo 8, área 59)."
-// 3 DE GLiFOs — CURANDEIRO
-1"Olhe para o oeste. Encontre um lago abençoado pela luz do sol branco."
-2"O tesouro está abaixo do mirante no Santuário do Sol Branco (capítulo 8, área 54)."
-// 4 DE GLiros — PASTOR
-1"Encontre a mãe - ela que deu à luz ao mal."
-2"O tesouro está no túmulo do Rei Barov e da Rainha Ravenovia (capitulo 4, área K88)."
-// 5 DE GLiros — DRUIDA
-1"Uma árvore do mal cresce no topo de uma colina de sepulturas onde o antigo morto dorme. Os corvos podem ajudá-lo a encontrá-lo. Procure o tesouro lá."
-2"O tesouro está nas raizes da árvore Gulthias (capítulo 14, área Y4). Qualquer homem-corvo encontrado no deserto pode levar os personagens até o local."
-// 6 DE GLiFOS— ANARQUISTA
-1"Vejo paredes de ossos, um candelabro de ossos, e uma mesa de ossos - tudo o que restou de inimigos há muito esquecidos."
-2"O tesouro está no salão de ossos do Castelo Ravenloft (capítulo 4, área K67)."
-// 7 DE GLIFOS — CHARLATÃO
-1"Eu vejo um moinho solitário em um precipício. O tesouro está dentro."
-2"O tesouro está no sótão do Velho Moedor-de-Ossos (capítulo 6, área 04)."
-// 8 DE GLiros— Bispo
-1"O que você procura está em uma pilha de tesouro, além de um jogo de portas de âmbar."
-2"O tesouro está no cofre lacrado do Templo Âmbar (capítulo 13, área X40)."
-// 9 DE GLiros — TRAIDOR
-1"Procure uma mulher rica. Uma forte aliada do demônio, ela mantém o tesouro sob sete chaves, com os ossos de um inimigo antigo."
-2"O tesouro está escondido no quarto principal da Wachterhaus (capitulo 5, área N4o)."
-// MESTRE DE GLiros — SACERDOTE
-1"Você vai encontrar o que procura no castelo, entre as ruínasde um lugar de súplicas."
-2"O tesouro está na capela do Castelo Ravenloft(capítulo 4, área K15)."
-
-
+Name:' 1 de Glifos — MONGE'
+Quote:"O tesouro que você procura está escondido atrás do sol, na casa de um santo."
+Description:"O tesouro está no salão principal da Abadia de Santa Markóvia (capítulo 8, área 813)."
+Name:'2 de Glifos — MIssIONÁRIO'
+Quote:"Eu vejo um jardim debruçado sob a neve, vigiado por um espantalho em pano de saco com um sorriso largo. Não olhe para o jardim, mas sim para o guardião."
+Description:"O tesouro está escondido dentro de um dos espantalhos no jardim da Abadia de Santa Markóvia (capitulo 8, área 59)."
+Name:'3 DE GLiFOs — CURANDEIRO'
+Quote:"Olhe para o oeste. Encontre um lago abençoado pela luz do sol branco."
+Description:"O tesouro está abaixo do mirante no Santuário do Sol Branco (capítulo 8, área 54)."
+Name:'4 de Glifos — PASTOR'
+Quote:"Encontre a mãe - ela que deu à luz ao mal."
+Description:"O tesouro está no túmulo do Rei Barov e da Rainha Ravenovia (capitulo 4, área K88)."
+Name:'5 de Glifos — DRUIDA'
+Quote:"Uma árvore do mal cresce no topo de uma colina de sepulturas onde o antigo morto dorme. Os corvos podem ajudá-lo a encontrá-lo. Procure o tesouro lá."
+Description:"O tesouro está nas raizes da árvore Gulthias (capítulo 14, área Y4). Qualquer homem-corvo encontrado no deserto pode levar os personagens até o local."
+Name:'6 DE GLiFOS — ANARQUISTA'
+Quote:"Vejo paredes de ossos, um candelabro de ossos, e uma mesa de ossos - tudo o que restou de inimigos há muito esquecidos."
+Description:"O tesouro está no salão de ossos do Castelo Ravenloft (capítulo 4, área K67)."
+Name:'7 DE GLIFOS — CHARLATÃO'
+Quote:"Eu vejo um moinho solitário em um precipício. O tesouro está dentro."
+Description:"O tesouro está no sótão do Velho Moedor-de-Ossos (capítulo 6, área 04)."
+Name:'8 de Glifos — Bispo'
+Quote:"O que você procura está em uma pilha de tesouro, além de um jogo de portas de âmbar."
+Description:"O tesouro está no cofre lacrado do Templo Âmbar (capítulo 13, área X40)."
+Name:'9 de Glifos — TRAIDOR'
+Quote:"Procure uma mulher rica. Uma forte aliada do demônio, ela mantém o tesouro sob sete chaves, com os ossos de um inimigo antigo."
+Description:"O tesouro está escondido no quarto principal da Wachterhaus (capitulo 5, área N4o)."
+Name:'Mestre de Glifos — SACERDOTE'
+Quote:"Você vai encontrar o que procura no castelo, entre as ruínasde um lugar de súplicas."
+Description:"O tesouro está na capela do Castelo Ravenloft(capítulo 4, área K15)."
 
 Noble Deck(Card 4):
 
 // Artefato
 1"Procure um homem divertido com um macaquinho. Este homem é mais do que aparenta."
 2"Esta carta refere-se à Rictiavio (veja apêndice D), que pode ser encontrado na Estalagem Água Azul em Vallaki (capítulo 5, área N2). Normalmente relutante para acompanhar os personagens, Rictavio muda seu discurso se os personagens falarem sobre a leitura das cartas. Ele abre mão de seu disfarce e se apresenta como Dr. Rudolph van Richten. Os personagens podem pensar que Gadof Blinsky, o fabricante de brinquedos de Vallaki (area N7), é a figura que eles procuram, porque ele tem um macaco de estimação. Se eles falam com ele sobre essa possibilidade, Blinsky brinca que ele e o macaco são “velhos amigos”, mas se os personagens lhe pedirem para ir com eles para lutar contra Strahd, ele educadamente recusa. Se os personagens lhe falarem sobre a leitura tarokka, Blinsky admite que ele adquiriu o macaco de um meio-elfo, um mestre de cerimônias circense chamado Rictavio."
-// Bestial 
+// Bestial
 1"Um lobisomem possui um ódio secreto por seu inimigo. Use esse ódio como vantagem."
 2"Esta carta se refere a lobisomem Zuleika Toranescu (veja o capitulo 15, área Z7). Ela vai acompanhar os personagens se eles prometem vingar seu companheiro, Emil, matando o lider de sua matilha, Kiril Stoyanovich."
 // Violado
-1"A.Seu maior aliado será um mago. Sua mente é débil, mas suas magias são fortes./B.Eu vejo um homem de fé, cuja sanidade está por um fio. Ele perdeu alguém bastante próximo." 
+1"A.Seu maior aliado será um mago. Sua mente é débil, mas suas magias são fortes./B.Eu vejo um homem de fé, cuja sanidade está por um fio. Ele perdeu alguém bastante próximo."
 2"A.Esta carta refere-se ao Mago Louco do Monte Baratok(veja o capítulo 2, área M)./Esta carta refere-se à Donavich, o sacerdote na aldeia de Baróvia (veja o capítulo 3, área E5). Ele não vai acompanhar os personagens até que seu filho, Doru, esteja morto e enterrado."
 // Lorde Negrone
 1"Ah, a pior de todas as verdades: Você deve enfrentar o mal desta terra sozinho!"
@@ -266,11 +290,11 @@ Noble Deck(Card 5):
 // Artefato
 1"Ele se esconde na escuridão, onde a luz matinal uma vez tocou - um lugar sagrado."
 2"Strahd enfrenta os personagens na capela (área K15)."
-// Bestial 
+// Bestial
 1"A besta está sentada em seu trono sombrio."
 2"Strahd enfrenta os personagens na sala de audiências(área K25)."
 // Violado
-1"Ele assombra o túmulo do homem que ele invejava acima de tudo." 
+1"Ele assombra o túmulo do homem que ele invejava acima de tudo."
 2"Strahd enfrenta os personagens no túmulo de Sergei(área K85)."
 // Lorde Negro
 1"Ele se esconde nas profundezas da escuridão, no único lugar para o qual ele sempre deve retornar."
